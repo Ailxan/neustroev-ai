@@ -241,7 +241,7 @@ a { color: inherit; text-decoration: none; }
   .header-cta { padding: .62rem .72rem; }
   .hero { min-height: auto; padding-top: 4.5rem; }
   .hero::before { display: none; }
-  .hero-matrix { inset: auto 0 0; width: 100%; height: 31svh; }
+  .hero-matrix { inset: auto 0 -2.5rem; width: 100%; height: 46svh; }
   .hero-inner { margin-top: 0; min-height: 0; grid-template-columns: 1fr; }
   .hero-copy { min-height: 0; padding: 3.5rem 0 3rem; }
   .hero-kicker { margin-bottom: 2.5rem; }
@@ -252,13 +252,15 @@ a { color: inherit; text-decoration: none; }
   .hero-bottom { margin-top: 2.5rem; gap: 1.7rem; }
   .hero-actions { display: grid; grid-template-columns: 1fr 1fr; }
   .button { min-height: 3.5rem; padding-inline: .8rem; gap: .45rem; }
-  .hero-profile { min-height: 31svh; padding: 1.5rem 0; background: var(--cobalt); border-inline: 0; }
-  .hero-profile > strong { position: absolute; right: 0; bottom: 1.35rem; font-size: 3rem; }
+  .hero-profile { min-height: 31svh; padding: 1.5rem 1rem; background: var(--cobalt); border-inline: 0; isolation: isolate; }
+  .hero-profile::before { content: ""; position: absolute; inset: -46px -18px -18px; z-index: -1; pointer-events: none; background: radial-gradient(rgba(255,255,255,.34) 1px, transparent 1.6px) 0 0 / 24px 24px, linear-gradient(90deg, var(--cobalt) 0%, transparent 38%, transparent 62%, var(--cobalt) 100%); opacity: .5; mask-image: radial-gradient(ellipse at center, black 55%, transparent 100%); -webkit-mask-image: radial-gradient(ellipse at center, black 55%, transparent 100%); }
+  .hero-profile > strong { position: absolute; right: 1rem; bottom: 1rem; font-size: clamp(1.6rem, 6vw, 3rem); line-height: .85; }
   .hero-profile dl { width: 55%; margin-top: 1.3rem; }
   .hero-profile dl div { grid-template-columns: 4rem 1fr; padding: .62rem 0; }
   .profile-signal { display: none; }
-  .work-intro h2 { font-size: clamp(1.8rem, 8vw, 3.2rem); line-height: .98; white-space: nowrap; }
-  .about-heading h2, .life-heading h2 { font-size: clamp(3.15rem, 15vw, 4.7rem); }
+  .work-intro h2 { font-size: clamp(1.8rem, 8vw, 3.2rem); line-height: .98; }
+  .about-heading h2 { font-size: clamp(2rem, 8vw, 4.7rem); overflow-wrap: break-word; }
+  .life-heading h2 { font-size: clamp(3.15rem, 15vw, 4.7rem); }
   .live-case { min-height: 34rem; padding: 1.25rem; }
   .case-index { grid-template-columns: auto 1fr; }
   .case-index span:last-child { display: none; }

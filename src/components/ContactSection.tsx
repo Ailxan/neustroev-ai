@@ -15,11 +15,11 @@ export default function ContactSection() {
             <a href="https://t.me/Travka141" target="_blank" rel="noopener noreferrer">
               <span>Telegram</span><strong>@Travka141</strong>
             </a>
-            <a href="mailto:ail.neustroev23072009@gmail.com">
-              <span>Email</span><strong>ail.neustroev23072009@gmail.com</strong>
+            <a href="mailto:neustroev.ai@internet.ru">
+              <span>Email</span><strong>neustroev.ai@internet.ru</strong>
             </a>
-            <a href="tel:+79143056200">
-              <span>Телефон</span><strong>+7 914 305 62 00</strong>
+            <a href="tel:Скоро будет">
+              <span>Телефон</span><strong>Скоро будет</strong>
             </a>
           </div>
         </div>

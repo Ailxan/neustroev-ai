@@ -26,7 +26,7 @@ export default function Intro() {
           <div className="hero-bottom">
             <p>Беру на себя полный цикл: от идеи и плана до личного сопровождения запуска.</p>
             <div className="hero-actions">
-              <a className="button button-primary" href="#work"><span>Смотреть варианты</span><span aria-hidden="true">↘</span></a>
+              <a className="button button-primary" href="#work"><span>О главном</span><span aria-hidden="true">↘</span></a>
               <a className="button button-ghost" href="#contact"><span>Обсудить задачу</span><span aria-hidden="true">↗</span></a>
             </div>
           </div>

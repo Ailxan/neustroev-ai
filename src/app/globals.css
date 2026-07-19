@@ -50,8 +50,8 @@ a { color: inherit; text-decoration: none; }
 
 /* Hero: solid cobalt field + animated data matrix */
 .hero { position: relative; min-height: 100dvh; overflow: hidden; display: flex; align-items: center; border-bottom: 1px solid var(--line); }
-.hero::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 34%; background: var(--cobalt); }
-.hero-matrix { position: absolute; z-index: 0; inset: 4.5rem 0 0 auto; width: 34%; overflow: hidden; background-image: radial-gradient(rgba(255,255,255,.34) 1px, transparent 1.6px); background-size: 24px 24px; mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent); }
+.hero::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 35%; background: var(--cobalt); }
+.hero-matrix { position: absolute; z-index: 0; inset: 4.5rem 0 0 auto; width: 35%; overflow: hidden; background-image: radial-gradient(rgba(255,255,255,.34) 1px, transparent 1.6px); background-size: 24px 24px; mask-image: linear-gradient(to bottom, transparent, black 18%, black 82%, transparent); }
 .hero-matrix::before { content: ""; position: absolute; inset: -30% 0 auto; height: 36%; background: linear-gradient(to bottom, transparent, rgba(255,255,255,.26), transparent); filter: blur(16px); animation: matrix-scan 5.8s linear infinite; }
 .hero-matrix::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--cobalt) 0%, transparent 38%, transparent 62%, var(--cobalt) 100%); opacity: .7; }
 .hero-matrix i { position: absolute; z-index: 2; display: block; width: .42rem; aspect-ratio: 1; background: white; box-shadow: 0 0 24px white; animation: data-pulse 3s ease-in-out infinite; }

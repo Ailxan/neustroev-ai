@@ -17,7 +17,7 @@ export default function Work() {
       <div className="page-width">
         <Reveal className="work-intro">
           <p className="section-label">Работа</p>
-          <h2 id="work-title">Функциональность —<br />прежде всего.</h2>
+          <h2 id="work-title">Функциональность<br />прежде всего.</h2>
           <p>Работаю за результат, а не за часы, поэтому цена адекватная.</p>
         </Reveal>
 

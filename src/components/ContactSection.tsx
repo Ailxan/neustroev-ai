@@ -18,8 +18,8 @@ export default function ContactSection() {
             <a href="mailto:neustroev.ai@internet.ru">
               <span>Email</span><strong>neustroev.ai@internet.ru</strong>
             </a>
-            <a href="tel:Скоро будет">
-              <span>Телефон</span><strong>Скоро будет</strong>
+            <a href="tel:+79679264756">
+              <span>Телефон</span><strong>+7 967 926-47-56</strong>
             </a>
           </div>
         </div>

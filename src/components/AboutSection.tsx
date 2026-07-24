@@ -13,7 +13,7 @@ export default function AboutSection() {
         <Reveal className="about-heading">
           <p className="section-label">Подход</p>
           <h2 id="about-title">Мне 17.<br />Но эффективность оценивают<br />не по возрасту.</h2>
-          <p>Учусь в СУНЦ СВФУ, работаю как самозанятый и отвечаю за результат лично.</p>
+          <p>Я программист и веб-разработчик из Якутска. Учусь в СУНЦ СВФУ, работаю как самозанятый и лично отвечаю за результат. Берусь за проекты в Якутске и удалённо по России.</p>
         </Reveal>
         <div className="capability-grid">
           {capabilities.map(([title, text], index) => (

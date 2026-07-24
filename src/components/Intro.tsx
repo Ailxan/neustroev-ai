@@ -17,14 +17,15 @@ export default function Intro() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: .72, ease }}
         >
-          <p className="hero-kicker"><span /> Full-Stack разработчик · Якутск</p>
+          <p className="hero-kicker"><span /> Программист и веб-разработчик · Якутск</p>
           <h1 id="hero-title">
-            <span className="hero-line"><b>Делаю проекты</b></span>
-            <span className="hero-line"><b>под ваш бюджет,</b></span>
-            <span className="hero-line hero-line-accent"><b>а не под шаблоны.</b></span>
+            <span className="hero-line"><b>Айылхан Неустроев —</b></span>{" "}
+            <span className="hero-line"><b>программист и</b></span>{" "}
+            <span className="hero-line"><b>разработчик цифровых</b></span>{" "}
+            <span className="hero-line hero-line-accent"><b>проектов.</b></span>
           </h1>
           <div className="hero-bottom">
-            <p>Беру на себя полный цикл: от идеи и плана до личного сопровождения запуска.</p>
+            <p>Создаю сайты, веб-приложения и интерфейсы на Next.js, React и TypeScript — от идеи до готового запуска.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#work"><span>О главном</span><span aria-hidden="true">↘</span></a>
               <a className="button button-ghost" href="#contact"><span>Обсудить задачу</span><span aria-hidden="true">↗</span></a>
